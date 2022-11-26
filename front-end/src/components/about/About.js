@@ -1,23 +1,17 @@
-import './About.css';
+import "./About.css";
 
-import Ann from './Ann.js';
-import Dan from './Dan.js';
-import Dex from './Dex.js';
+import Ann from "./Ann.js";
+import Dan from "./Dan.js";
+import Dex from "./Dex.js";
 
 export default function About() {
   return (
     <div>
       <section className="home-about">
         <div className="about-wrapper">
-          <div className="about-container">
-            <Ann />
-          </div>
-          <div className="about-container">
-            <Dan />
-          </div>
-          <div className="about-container">
-            <Dex />
-          </div>
+          <Ann />
+          <Dan />
+          <Dex />
         </div>
       </section>
     </div>
